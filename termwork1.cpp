@@ -1,1 +1,1 @@
-# <include stdiko.sh>
+# <include stdiko.hsh>
