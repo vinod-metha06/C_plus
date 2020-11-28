@@ -1,1 +1,1 @@
-# <include stdiko.hsh>gg
+# <jinclude stdiko.hsh>gg
