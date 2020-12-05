@@ -49,7 +49,7 @@ void insertion::insert()
 
 void insertion::display()
 {  
-    cout<<"The array after the insertion is ";
+    cout<<"The array after the insertion is "<< endl;
     for(int i=0; i<n; i++)
         cout<<setw(4)<<m[i];
 

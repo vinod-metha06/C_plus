@@ -40,9 +40,9 @@ void frequency::findfreq()
 void frequency::display()
 {         
    if(freq > 0)
-       cout<<"frequency of "<<ele<<" is "<<freq;
+       cout<<"frequency of "<<ele<<" is "<<freq << endl;
        else
-        cout<<ele<<" does not exist";
+        cout<<ele<<" does not exist"<< endl;
 }
 
 
