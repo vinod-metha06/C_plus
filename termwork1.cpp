@@ -4,6 +4,7 @@ using namespace std;
 #include <stdlib.h> //For system("clear") function  /Alternative of conio.h
 #include <curses.h> //For getch() function     /Alternative of conio.h
 
+
 class frequency
 {        
    private:
@@ -13,6 +14,8 @@ class frequency
            void findfreq();
            void display ();
 };
+
+
 void frequency::getdata()
 {
       cout<<"Enter the size of the array:";
@@ -23,6 +26,8 @@ void frequency::getdata()
       cout<< "Enter the search elements:  ";
       cin>>ele;
 }
+
+
 void frequency::findfreq()
 {       
    freq=0;
@@ -30,6 +35,8 @@ void frequency::findfreq()
       if(ele==m[i])
           freq++;
 }
+
+
 void frequency::display()
 {         
    if(freq > 0)
@@ -37,6 +44,8 @@ void frequency::display()
        else
         cout<<ele<<" does not exist";
 }
+
+
  int main()
  {      
     frequency F;
