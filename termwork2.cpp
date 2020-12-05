@@ -13,6 +13,8 @@ class insertion
             void insert();
             void display();
 };
+
+
 void insertion::getdata()
 {
     cout<<"How many elements? ";
@@ -25,6 +27,8 @@ void insertion::getdata()
     cout<<"Enter the position( 0 to "<<n-1<<"): ";
     cin>>p;
 }
+
+
 void insertion::insert()
 {
      if (p > n)
@@ -41,6 +45,8 @@ void insertion::insert()
      cout<<ele<<" is successfully inserted"<<endl;
 
 }
+
+
 void insertion::display()
 {  
     cout<<"The array after the insertion is ";
@@ -48,6 +54,8 @@ void insertion::display()
         cout<<setw(4)<<m[i];
 
 }
+
+
 int main()
 {        
       insertion I;
