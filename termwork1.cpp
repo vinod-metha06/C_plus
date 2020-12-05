@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 #include<iomanip>
-#include <stdlib.h> //For system("clear") function
-#include <curses.h> //For getch() function
+#include <stdlib.h> //For system("clear") function  /Alternative of conio.h
+#include <curses.h> //For getch() function     /Alternative of conio.h
 
 class frequency
 {        
