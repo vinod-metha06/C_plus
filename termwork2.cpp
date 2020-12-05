@@ -22,7 +22,7 @@ void insertion::getdata()
          cin>>m[i];
     cout<<"Enter the element to be inserted: ";
     cin>>ele;
-    cout<<"Enter the position( 0 to "<<n<<"): ";
+    cout<<"Enter the position( 0 to "<<n-1<<"): ";
     cin>>p;
 }
 void insertion::insert()
@@ -33,4 +33,27 @@ void insertion::insert()
          getch();    //using #include <curses.h> 
          exit(0);    //using #include <cstdlib> 
      }
+
+     for(int i=n-1; i>=p; i--)
+        m[i+1] = m[i];
+     m[p] = ele;
+     n++;
+     cout<<ele<<" is successfully inserted"<<endl;
+
 }
+void insertion::display()
+{  
+    cout<<"The array after the insertion is ";
+    for(int i=0; i<n; i++)
+        cout<<setw(4)<<m[i];
+
+}
+int main()
+{        
+      insertion I;
+      I.getdata();
+      I.insert();
+      I.display();
+
+}
+
