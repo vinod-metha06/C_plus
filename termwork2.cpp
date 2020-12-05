@@ -47,6 +47,7 @@ void insertion::insert()
 }
 
 
+
 void insertion::display()
 {  
     cout<<"The array after the insertion is ";
