@@ -24,7 +24,7 @@ void insertion::getdata()
          cin>>m[i];
     cout<<"Enter the element to be inserted: ";
     cin>>ele;
-    cout<<"Enter the position( 0 to "<<n-1<<"): ";
+    cout<<"Enter the position( 0 to "<<n<<"): ";
     cin>>p;
 }
 
