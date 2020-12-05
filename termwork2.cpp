@@ -51,7 +51,10 @@ void insertion::display()
 {  
     cout<<"The array after the insertion is ";
     for(int i=0; i<n; i++)
-        cout<<setw(4)<<m[i]<< endl;
+    {
+        cout<<setw(4)<<m[i];
+    }
+     cout<< endl;
 
 }
 
