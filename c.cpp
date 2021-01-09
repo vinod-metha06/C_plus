@@ -1,4 +1,4 @@
-c#include<iostream>
+#include<iostream>
 using namespace std;
 
 #include <stdlib.h> //For system("clear") function  /Alternative of conio.h
