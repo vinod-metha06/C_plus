@@ -18,7 +18,7 @@ class frequency
 
 void frequency::getdata()
 {
-      cout<<"Enter the size of the array:";
+      cout<<"Enter the size of the array:  ";
       cin>>n;
       cout<<"Enter "<<n<<" elements into the array:  ";
       for(int i=0; i<n; i++)
